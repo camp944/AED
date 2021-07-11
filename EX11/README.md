@@ -3,8 +3,8 @@
 1º ABRA O PROMPT DE COMANDO;<br>
 2º DIGITE O SEGUINTE COMANDO : ```cd <ENDEREÇO DO DIRETÓRIO DO PROGRAMA>```;<br>
 3º DIGITE O COMANDO: ```gcc -c main.c```;<br>
-4º DIGITE O COMANDO: ```gcc -c main.c```;<br>
-5º DIGITE O COMANDO: ```gcc -c main.c```;<br>
+4º DIGITE O COMANDO: ```gcc -c resgate.c```;<br>
+5º DIGITE O COMANDO: ```gcc -c resgate.h```;<br>
 
 <br><br><br>
 # DESCRIÇÃO<br>
