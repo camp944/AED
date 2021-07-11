@@ -2,7 +2,7 @@
 
 1º ABRA O PROMPT DE COMANDO;<br>
 2º DIGITE O SEGUINTE COMANDO : ```cd <ENDEREÇO DO DIRETÓRIO DO PROGRAMA>```;<br>
-3º DIGITE O COMANDO: ```gcc -o <nome do que deseja dar ao arquivo.exe> main.c resgate.c resgate.h``;<br>
+3º DIGITE O COMANDO: ```gcc -o <nome do que deseja dar ao arquivo.exe> main.c resgate.c resgate.h```;<br>
 
 
 <br><br><br>
