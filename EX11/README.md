@@ -9,7 +9,7 @@
 <br><br><br>
 # DESCRIÇÃO<br>
 Este programa ao ser iniciado irá ler o nome de um arquivo, que deve estar no mesmo diretório<br>
-que o progrma, e em seguida cria uma matriz com os valores do arquivo e dá a opção de resgatar<br>
+que o programa, e em seguida cria uma matriz com os valores do arquivo e dá a opção de resgatar<br>
 um arquivo da matriz e lançá-lo em uma fila. Caso a fila fique cheia, o valor mais antigo é <br>
 devolvido à matriz e o novo valor é inserido.<br> <br>
 
