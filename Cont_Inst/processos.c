@@ -82,7 +82,7 @@ void andar(int matriz[MAX][MAX],contador *c)
 	valor_d=matriz[(c->vet_pos[c->cont_steps]/10)][(c->vet_pos[c->cont_steps]%10)+1];
 	valor_b=matriz[(c->vet_pos[c->cont_steps]/10)+1][(c->vet_pos[c->cont_steps]%10)];
 	
-	if(((c->vet_pos[c->cont_steps]/10)<c->tamanho-1)||((c->vet_pos[c->cont_steps]%10)<c->tamanho-1))//se o contador não estiver na ultima linha/ultima coluna
+	if(((c->vet_pos[c->cont_steps]/10)<c->tamanho-1)||((c->vet_pos[c->cont_steps]%10)<c->tamanho-1))//se o contador nÃ£o estiver na ultima linha/ultima coluna
 	{
 		if(c->vet_pos[c->cont_steps]%10==0) //coluna 0
 		{
@@ -105,7 +105,7 @@ void andar(int matriz[MAX][MAX],contador *c)
 			{
 				if(c->vet_pos[c->cont_steps]/10<(c->tamanho-1))//linha < tamanho-1
 				{
-					if(c->vet_pos[c->cont_steps-1]!=c->vet_pos[c->cont_steps]+1)//se o anterior não for o valor_d
+					if(c->vet_pos[c->cont_steps-1]!=c->vet_pos[c->cont_steps]+1)//se o anterior nÃ£o for o valor_d
 					{
 						if(valor_d>valor_b) //valor_d maior
 						{
@@ -145,7 +145,7 @@ void andar(int matriz[MAX][MAX],contador *c)
 					c->vet_pos[c->cont_steps]=c->vet_pos[c->cont_steps-1]+10;
 					c->soma=c->soma+valor_b;
 				}
-				else//se o valor_e não for anterior
+				else//se o valor_e nÃ£o for anterior
 				{
 					if(valor_e>valor_b)//se o valor_e for maior que valor_b
 					{
@@ -257,7 +257,7 @@ void imprimir_posicao(contador *c)
 
 void imprimir_matriz(contador *c,int matriz[MAX][MAX])
 {
-	int cont_l,cont_c,cont_caminho;
+	int cont_l,cont_c,cont_caminho=0;
 	for(cont_l=0;cont_l<c->tamanho;cont_l++)
 	{
 		printf("               ");
