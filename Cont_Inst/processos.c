@@ -62,8 +62,6 @@ void inicio(int matriz[MAX][MAX],int tamanho,contador *c)
 	c->cont_steps=0;
 	c->tamanho=tamanho;
 	c->vet_pos[0]=0;
-	printf("\n\n %d   %d   %d",c->cont_steps,c->soma,c->vet_pos[0]);
-	printf("\n\n");
 	
 
 }
@@ -280,6 +278,6 @@ void imprimir_matriz(contador *c,int matriz[MAX][MAX])
  
 void imprimir_resultados(contador *c)
 {
-	printf("\n\n\n               PASSOS DADOS -> %d",c->cont_steps+1);
+	printf("\n\n\n               POSICOES ARMAZENADAS -> %d",c->cont_steps+1);
 	printf("\n               SOMA DA DOS PASSOS -> %d",c->soma);
 }
