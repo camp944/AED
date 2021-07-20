@@ -86,7 +86,7 @@ int main(int argc, char *argv[]) {
 					
 					if(select_operacao==6)
 					{
-						imprimir_resultados(f);
+						imprimir_resultados(&f);
 					}
 			
 			}
