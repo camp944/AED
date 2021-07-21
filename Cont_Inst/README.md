@@ -2,7 +2,8 @@
 
 1º ABRA O PROMPT DE COMANDO;<br>
 2º DIGITE O SEGUINTE COMANDO : ```cd <ENDEREÇO DO DIRETÓRIO DO PROGRAMA>```;<br>
-3º DIGITE O COMANDO: ```gcc -o <nome do que deseja dar ao arquivo  .exe> main.c processos.c processos.h```;<br>
+3º DIGITE O COMANDO: ```gcc -o executar main.c processos.c processos.h```;<br>
+4º DIGITE O COMANDO: ```.\ executar.exe ``;<br>
 
 # DESCRIÇÃO DO PROGRAMA<br>
 Este programa está dividido em 2 menus, um que possiblita ao usuário criar uma matriz N x N e<br> 
