@@ -3,6 +3,7 @@
 1º ABRA O PROMPT DE COMANDO;<br>
 2º DIGITE O SEGUINTE COMANDO : ```cd <ENDEREÇO DO DIRETÓRIO DO PROGRAMA>```;<br>
 3º DIGITE O COMANDO: ```gcc -o executar main.c base.h pilha.h pilha.c fila.h fila.c lista.h lista.c ex1.h ex1.c ex2.h ex2.c ex3.h ex3.c ex4.c ex4.h```;<br>
+4º DIGITE O COMANDO: ```.\ executar.exe ```;<br>
 
 
 <br><br><br>
