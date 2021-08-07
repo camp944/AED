@@ -8,18 +8,22 @@
 <br><br><br>
 # DESCRIÇÃO<br>
 
-Para resolver as questões propostas o programa foi dividido da seguinte maneira:<br>
+Para resolver as questões propostas, o programa foi dividido da seguinte maneira:<br>
 . 1 arquivo base que contém as estruturas básicas, como blocos e itens, necessárias para a criação de<br>
 pilhas, listas e filas;<br>
 . 6 arquivos que contém as estruturas de pilhas, listas e filas, e as funções que as operam no programa;<br>
 . 8 arquivos para a solução dos exercícios, sendo um .c e .h para cada exercício;<br>
-. 1 aruivo main.c onde as soluções foram implementadas;<br>
+. 1 arquivo main.c onde as soluções foram implementadas;<br>
+Além disso, funções auxiliares, foram criadas para a solução de problemas como o da função phi de euler e<br>
+do binômio de Newton, onde foi necessário calcular a combinação entre 2 números.<br>
+
 
 
 <br><br><br>
 # OBSERVAÇÃO<br>
-O programa só aceita arquivos no mesmo padrão de separação do arquivo "arquivos_exemplo.txt" <br>
-e que não ultrapassem 10 linhas e 30 colunas.Caso o arquivo ultrapasse esses limites, o <br>
-programa não será capaz de lê-lo.
+Para a esolver os exercícios no programa o usuário irá navegar através de 1 menu e 4 sub-menus,<br>
+sendo que o usuário irá selecionar primeira mente o número do exercício que deseja resolver e,<br>
+após ser redirecionado para um sub-menu do exercício, ele irá selecionar a letra do problema<br>
+que quer que seja solucionado.<br>
 
 
