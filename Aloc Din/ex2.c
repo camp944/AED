@@ -6,7 +6,7 @@
 #include "pilha.h"
 #include "base.h"
 #include "ex2.h"
-//PRONTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOo
+
 
 
 void menuEx2()
