@@ -28,3 +28,11 @@ após ser redirecionado para um sub-menu do exercício, ele irá selecionar a le
 que quer que seja solucionado.<br>
 
 
+# EXERCÍCIO 4<br>
+O programa criado recebe o nome de um arquivo .txt que deve estar no mesmo diretório do programa<br>
+e o tokeniza criando uma tabela com ID nome do produto e preço. Com isso, o usuário pode navegar<br>
+pelos produtos escolhendo se os adiciona ou não ao carrinho.Ao final, o programa fornece o valor <br>
+final da compra.<br>
+O arquivo .txt de ter o seguinto formato por linha ID_do_Produto><Nome_do_Produto><Valor_do_Produto<br>
+sendo que o valor do produto deve ser um número inteiro.
+
