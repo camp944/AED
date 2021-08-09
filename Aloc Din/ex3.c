@@ -76,7 +76,7 @@ void resolve3A()//PRONTO
 	FDImprime(&f);
 }
 
-void resolve3B()//FALTA FAZER
+void resolve3B()
 {
 	srand(time(NULL));
 
