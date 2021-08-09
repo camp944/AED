@@ -16,7 +16,8 @@ pilhas, listas e filas;<br>
 . 8 arquivos para a solução dos exercícios, sendo um .c e .h para cada exercício;<br>
 . 1 arquivo main.c onde as soluções foram implementadas;<br>
 Além disso, funções auxiliares, foram criadas para a solução de problemas como o da função phi de euler e<br>
-do binômio de Newton, onde foi necessário calcular a combinação entre 2 números.<br>
+do binômio de Newton, onde foi necessário calcular a combinação entre 2 números, e foram empregads apenas<br>
+estruturas dinâmicas.<br>
 
 
 
