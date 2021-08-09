@@ -9,6 +9,5 @@ int combina(int fator,int base);
 
 void resolve3A();
 void resolve3B();
-void resolve3B();
 
 #endif
