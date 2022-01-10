@@ -16,8 +16,14 @@ Para compilar o program basta seguir os passos e comandos de console abaixo ou,
 caso esteja executando em Windows, basta executar o arquivo "Compila.bat" e,
 em seguida, o arquivo "arvoreB.exe" .
   
-  <h3>1. Navegar até o diretório que contém o programa.<h3>
-  <h3>2. Executar o comando:```bash gcc -o arvoreB estruturas.c estruturas.h operacoes.c operacoes.h main.c ```
-  <h3>3. Executar o comando: <h3>: ```bash ./arvoreB ```
+1. Navegar até o diretório que contém o programa.
+2. Executar o comando: 
+```bash 
+  gcc -o arvoreB estruturas.c estruturas.h operacoes.c operacoes.h main.c 
+```
+3. Executar o comando:
+```bash 
+  ./arvoreB 
+```
 
   
