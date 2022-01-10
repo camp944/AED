@@ -18,6 +18,6 @@ em seguida, o arquivo "arvoreB.exe" .<h3>
   
   <h3>1. Navegar até o diretório que contém o programa.<h3>
   <h3>2. Executar o comando:```sh gcc -o arvoreB estruturas.c estruturas.h operacoes.c operacoes.h main.c ```
-  <h3>3. Executar o comando: <h3> ```sh ./arvoreB ```
+  <h3>3. Executar o comando: <h3>: ```sh ./arvoreB ```
 
   
