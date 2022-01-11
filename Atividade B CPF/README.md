@@ -1,4 +1,4 @@
-##Descrição
+## Descrição
 
 Este programa foi desenvolvido para a resolução de uma atividade que
 consiste no desenvolvimento de uma estrutura de árvore B que armazene os 
@@ -12,7 +12,7 @@ Pagina que recebe as inserções de acordo com os 2 algarismos mais à direita
 do CPF, sendo que o primeiro elemento do vetor recebe os CPFs que terminam 
 de 00 e 09 e o último elemento do vetor os que têm final de 90 a 99.
   
-##Compilando
+## Compilando
 
 Para compilar o program basta seguir os passos e comandos de console abaixo ou,
 caso esteja executando em Windows, basta executar o arquivo "Compila.bat" e,
