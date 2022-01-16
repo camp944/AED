@@ -23,7 +23,7 @@ int main()
 	}
 	
 
-	for(i=0;i<50;i++)//GERA AS COMBINACOES DE VERTICES QUE SERAO LIGADOS POR UMA ARESTA A SER INSERIDA
+	for(i=0;i<80;i++)//GERA AS COMBINACOES DE VERTICES QUE SERAO LIGADOS POR UMA ARESTA A SER INSERIDA
 	{	
 		int a=rand()%10;
 		int b=rand()%10;
@@ -39,7 +39,7 @@ int main()
 	printf("\n\tARESTAS REPETIDAS NAO INSERIDAS -> %d",laco-G->E);
 	printf("\n\tARESTAS INSERIDAS -> %d",G->E);
 	printf("\n\n");
-	CloseRoute(G,ini,dist);//BUSCA E IMPRESS√O DOS MENORES CAMINHOS
+	CloseRoute(G,ini,dist);//BUSCA E IMPRESS√ÉO DOS MENORES CAMINHOS
 	printf("\n\n");
 	system("pause");;
 
