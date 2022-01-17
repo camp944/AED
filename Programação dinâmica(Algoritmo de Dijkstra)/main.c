@@ -7,16 +7,18 @@
 
 int main()
 {
-
+	
 	srand(time(NULL));
 	
-	Graph G = GraphInitialize(10);//INICIALIZA O GRAFO
-	int *dist=(int*)malloc(G->V * sizeof(int));//INICIA O ARRAY QUE ARMAZENARA AS DISTANCIAS
 	int i,j,ini=-1,laco=0,V;
 	
-	printf("\n");
+
 	printf("\n\tDeseja inserir quantos vertices? -> ");// LE O NUMERO DE VERTICES QUE SERAO INSERIDOS
 	scanf("%d",&V);
+	
+	Graph G = GraphInitialize(V);//INICIALIZA O GRAFO
+	int *dist=(int*)malloc(G->V * sizeof(int));//INICIA O ARRAY QUE ARMAZENARA AS DISTANCIAS
+	
 	while(ini<0 || ini>V)
 	{
 		printf("\n\tDeseja partir de qual vertice?(0 a %d)-> ",V-1);// LE O VERTICE QUE SERA USADO COMO BASE
@@ -40,7 +42,7 @@ int main()
 	printf("\n\tARESTAS REPETIDAS NAO INSERIDAS -> %d",laco-G->E);
 	printf("\n\tARESTAS INSERIDAS -> %d",G->E);
 	printf("\n\n");
-	CloseRoute(G,ini,dist);//BUSCA E IMPRESS√O DOS MENORES CAMINHOS
+	CloseRoute(G,ini,dist);//BUSCA E IMPRESS√ÉO DOS MENORES CAMINHOS
 	printf("\n\n");
 	system("pause");
 
