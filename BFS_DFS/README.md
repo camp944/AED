@@ -14,6 +14,6 @@ main.c, que realiza do o processos processos de busca e marcação de tempo.<p>
 ## LINUX
 Navegue aé o diretório do programa, pelo console, e insira os seguintes comandos:
   
-1.```sh
-  gcc -o BFS_DFS main.c dfs.c dfs.h bfs.c bfs.h grph.c grph.h  
-```
+1.```sh  gcc -o BFS_DFS main.c dfs.c dfs.h bfs.c bfs.h grph.c grph.h  ```
+  
+
