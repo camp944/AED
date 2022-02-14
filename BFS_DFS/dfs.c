@@ -66,9 +66,9 @@ int DFS_VISIT_inc(Graph G, Vertex v, int *cor, int *d, int *f, int *tempo,int **
 }
 
 void DFS_inc(Graph G,int **matriz){
-  int cor[G->V]; // Branco 0, Cinza 1, Preto 2
-  int d[G->V];   // Tempo de descoberta
-  int f[G->V];   // Tempo de finalização
+  int cor[G->V]; 
+  int d[G->V];   
+  int f[G->V];   
   int tempo = 0;
   int v,cont_edge=0;
   for(v=0; v<G->V; v++)
