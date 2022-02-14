@@ -20,6 +20,7 @@ Para compilar e executar os arquivos, basta navegar até o diretório do program
 pelo console, e insira os seguintes comandos:
   
 1º  ```sh  gcc -o BFS_DFS main.c dfs.c dfs.h bfs.c bfs.h grph.c grph.h  ```
+  
 2º  ```sh  ./BFS_DFS ```
   
 ## WINDOWS
