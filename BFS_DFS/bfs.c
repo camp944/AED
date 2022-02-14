@@ -2,9 +2,9 @@
 
 
 void BFS_adj(Graph G, Vertex s,int **matriz){
-  int cor[G->V]; //0 Branco, 1 Cinza, 2 Preto
+  int cor[G->V]; 
   int d[G->V];
-  int pi[G->V]; // -1 == NULL
+  int pi[G->V]; 
   Fila *f = FFVazia();
   int i;
   for(i=0; i<G->V; i++)
